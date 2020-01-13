@@ -12,13 +12,13 @@ class DarkLava extends PluginBase
 
     public function onEnable(): void
     {
-        $this->getLogger()->info("DarkLava Enabled!");
+        $this->getLogger()->info("DarkLava Enabled");
         BlockFactory::registerBlock(new DarkLavaBlock(), true);
     }
 
     public function onDisable(): void
     {
-        $this->getLogger()->info("DarkLava Disabled!");
+        $this->getLogger()->info("DarkLava Disabled");
     }
 
 
